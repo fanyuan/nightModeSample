@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
     public void dayMode(View view) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
-        recreate();
+        //recreate();
     }
 
     public void nightMode(View view) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 
-        recreate();
+        //recreate();
     }
 
     public void autoSwitch(View view) {
@@ -36,6 +36,6 @@ public class MainActivity extends AppCompatActivity {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         }
 
-        recreate();
+        //recreate();
     }
 }
