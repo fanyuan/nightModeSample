@@ -16,6 +16,20 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/selector_check"
+        android:text="这是一个测试"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/circular"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="要有要困要极 在在在在赤水村 要 不不 肖膦为搜房极地搜房要地地"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
